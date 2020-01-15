@@ -1,7 +1,7 @@
 /**
  * Clase principal.
  * Versión 1.0
- * Autor: Profesor Entorno Desarrollo
+ * Autor: Francisco Javier Riquelme
  */
 public class Game {
 
@@ -17,7 +17,7 @@ public class Game {
 
 	private void printHelp() {
 		System.out.println("");
-		System.out.println("Ordenes y comandos válidos para el juego: ");
+		System.out.println("Ordenes y comandos validos para el juego: ");
 		parser.showCommands();
 	}
 
@@ -45,7 +45,7 @@ public class Game {
 		Move pcMove;
 
 		if (move.isUnknown()) {
-			System.out.println("Opción No Válida");
+			System.out.println("Opci�n No V�lida");
 			printHelp();
 			return true;
 		}
